@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendViaTransfer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"examen.sol": "SendEther"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"examen.sol": {
+			"keccak256": "0xb25a5d247b1b2e476aef1744bb7a6bb48fa985f0f573644d7e07197a19f1f4fe",
+			"urls": [
+				"bzz-raw://9ab9e40d26a48a8959d534b027fb18dc1a4ef968d6db5b8334f11a47f74966f4",
+				"dweb:/ipfs/QmNZYYQBhnBbUNygqbX2NfinjnGb1g1q3fzH2eEtePDfy1"
+			]
+		}
+	},
+	"version": 1
+}

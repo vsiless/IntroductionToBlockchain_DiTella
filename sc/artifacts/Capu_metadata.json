@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getAmountCaptured",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sc/Pikachu2.sol": "Capu"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sc/Pikachu2.sol": {
+			"keccak256": "0x1ca8bbb7e679a898ff69461f7aba2b760c5ae51dd44770413a059309ad184014",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://257bd5d4dcee8058b13c5b3c4584358d50022ae24cec5bb19b61ac955dede97f",
+				"dweb:/ipfs/QmaH3tApxAXcBvrkG4t8oGJWzRFcCVtGnrp39KNiQtpLti"
+			]
+		}
+	},
+	"version": 1
+}

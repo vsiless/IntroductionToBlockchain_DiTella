@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "currentContractBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sc/basics/payable.sol": "Fundraiser"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sc/basics/payable.sol": {
+			"keccak256": "0x01beae921762d70edc13421bc80572f559e965eb48461ebd1a44343dbcf5cac3",
+			"urls": [
+				"bzz-raw://68a52cb94d3c81117854a0df9fecc2db5b5762b9095ecc489e3d4581fb355525",
+				"dweb:/ipfs/QmdSKpST9HMQo4e2d2wJeRe19RPPHu6sYG8Cqc193ysTbP"
+			]
+		}
+	},
+	"version": 1
+}

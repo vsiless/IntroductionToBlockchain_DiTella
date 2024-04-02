@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "gotMessage",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sc/basics/logs.sol": "HelloWorld"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sc/basics/logs.sol": {
+			"keccak256": "0xca92615f7d940bad216a361027db33af9aa29fe85b23bf12cbc2465d5c46a2f2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ecae32e122b20f18334249f885cc696de1b4eecf567bd7eb4a8ac543fec1b17f",
+				"dweb:/ipfs/QmZei2rKVY1HjhihBj9JLHddPA7ZqNVX95hXZD2VXD1UmS"
+			]
+		}
+	},
+	"version": 1
+}

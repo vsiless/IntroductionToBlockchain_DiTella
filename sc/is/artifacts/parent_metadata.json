@@ -1,0 +1,47 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "setValue",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sc/is/inheritance2.sol": "parent"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sc/is/inheritance2.sol": {
+			"keccak256": "0x436ccf05be2bf0888754b07762582bff65bb29cfd4dd39d1f4e71c617548b8d6",
+			"urls": [
+				"bzz-raw://54d9ce4ed313f6b5037c2f40743f2a63203842f927fe1e46dabec88cd969ce88",
+				"dweb:/ipfs/QmSS1N1AsZ1TXQnpK8dxqUspf4kt1ovncoSpzRE9c9Dkvb"
+			]
+		}
+	},
+	"version": 1
+}

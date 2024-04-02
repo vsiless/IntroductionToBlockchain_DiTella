@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkAdd",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkAddThree",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkInitialize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"beforeAll()": {
+					"notice": "'beforeAll' runs before all other tests More special functions are: 'beforeEach', 'beforeAll', 'afterEach' & 'afterAll'"
+				},
+				"checkAddThree()": {
+					"notice": "#sender: account-0 #value: 10"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/math_test.sol": "testSuite"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"remix_accounts.sol": {
+			"keccak256": "0x722e8fd271de98c2d980bda8e3d011551d9641355216b1029084b455c4c2a662",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8e57585c7061065613c796706efdae0c79a416bde447ccbe4ffaf969aeb7423e",
+				"dweb:/ipfs/QmdQCAgvob9suV3UwSR2rRetyU9fafTtEi2sDv9oRmRSLo"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"sc/test_unidad/math.sol": {
+			"keccak256": "0x38b9682dba10dd5177fa7a3ee2500e2325faa46dec18d31933bd350c1995839d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0655d8fa63ee7ccd71d99a69ae312637d9f260a06dab63895eebc18a8fb20a1c",
+				"dweb:/ipfs/QmcscnF1uASy1tXgXgkCVRLPBjopih2EnyRCfX8DVwM6je"
+			]
+		},
+		"tests/math_test.sol": {
+			"keccak256": "0x80294557c26c46155dccaa023a78b922fab3eab1ef2934506fc83bc0eb47d707",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b3046af7990745b13f904e93a6a3cbdab93e85988e367c547cf54c7dda85ed05",
+				"dweb:/ipfs/QmRdpd2q3amJUHQJmNnzee2MeYEkx2ZRMJNCESebaddsyd"
+			]
+		}
+	},
+	"version": 1
+}

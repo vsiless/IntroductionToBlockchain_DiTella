@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "pocaPlata",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sc/basics/modifiers.sol": "Owner"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sc/basics/modifiers.sol": {
+			"keccak256": "0x715d2846c2b3a06534667b20aee3993c88d6db00825ca0848c8ca4300c1fc926",
+			"urls": [
+				"bzz-raw://8e28d1546447056283fe01d8e8890068bd101e6407a0e9f84b8f6103a04d625c",
+				"dweb:/ipfs/QmUtHojjPWLPnw1ex9uhBBc6cqtNDeGqZNg4ix7iw2MXs7"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sc/is/virtual.sol": "Base2"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sc/is/virtual.sol": {
+			"keccak256": "0x1308d0d36f2bad9fd5b2fcd50c3ab96f8ef3910dffd706c2e1f92dc30842bb29",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2736bbebeea94ab5b466cc83bfacfa28dd153e4d419cda234d0feb0a1f8ca6e9",
+				"dweb:/ipfs/QmadVL5XQSD86mRFD1SnkkawHPpTcwQy8bhWuBbvunD6tq"
+			]
+		}
+	},
+	"version": 1
+}

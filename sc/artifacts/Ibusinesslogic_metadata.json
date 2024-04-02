@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sc/InterfaceProxy.sol": "Ibusinesslogic"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sc/InterfaceProxy.sol": {
+			"keccak256": "0x1666d48d34002c5d904d35580ae68165fcd06aa136628e63008b2868240ccc70",
+			"urls": [
+				"bzz-raw://2e5bcadd365dd1b702943e48cc993b3d158716d483e6d2cb6b255481d27ce08c",
+				"dweb:/ipfs/Qmc4BiWtxnkC4L7TjfwqP2PcsXrnNannjUj12ot5HBizFj"
+			]
+		}
+	},
+	"version": 1
+}
